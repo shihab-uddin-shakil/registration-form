@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form action="RegistrationFormAction.php" method="POST">
+
+        <!-- Input Text Field -->
+        <h5>Basic Information:</h5>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob">
+        <br>
+        <br>
+        <label>   
+            Religion :  
+            </label>
+        <select>  
+            <option value="religion">Religion</option>  
+            <option value="islam">Islam</option>  
+            <option value="Hindu">Hindu</option>  
+            <option value="Chirishtan">Chirishtan</option>  
+            <option value="Ihudi">Ihudi</option>  
+            </select>
+        <br>
+        <br>
+        <label for="fname">Father Name</label>
+        <input type="text" name="fname" id="fname">
+        <br>
+
+        <br>
+        <label for="mname">Mother Name</label>
+        <input type="text" name="mname" id="mname">
+        <br>
+        <br>
+        <h5>Contact Information:</h5>
+        <br>
+        <br>
+        <label for="paddress">Present Address</label>
+        <input type="text" name="paddress" id="paddress">
+        <br>
+        <br>
+        <label for="praddress">Parmanent Address</label>
+        <input type="text" name="praddress" id="praddress">
+        <br>
+        <br>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="pweb">Personal Website Link</label>
+        <input type="url" name="pweb" id="pweb">
+
+        <br>
+        <br>
+        <h5>Academic Information:</h5>
+
+        <br>
+        <br>
+        <label for="sscyear">SSC Year</label>
+        <input type="number" name="sscyear" id="sscyear">
+        <br>
+        <br>
+        <label for="sscinstitute">SSC Institution</label>
+        <input type="text" name="sscinstitute" id="sscinstitute">
+        <br>
+        <br>
+
+        <label for="hscyear">HSC Year</label>
+        <input type="number" name="hscyear" id="hscyear">
+        <br>
+        <br>
+        <label for="hscinstitute">HSC Institution</label>
+        <input type="text" name="hscinstitute" id="hscinstitute">
+
+
+        <br>
+        <br>
+
+        <!-- Input submit -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
